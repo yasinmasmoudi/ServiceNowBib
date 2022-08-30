@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="User">f53aa2182fe1111092ec90bcf699b6c3</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Users</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_879751_bib_user</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_879751_bib.user_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-30 11:14:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7695a3b22fa1111092ec90bcf699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sys_app_module_7695a3b22fa1111092ec90bcf699b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-30 11:14:52</sys_updated_on>
+        <timeline_page/>
+        <title>Users</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sys_app_module_7695a3b22fa1111092ec90bcf699b696</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="User">f53aa2182fe1111092ec90bcf699b6c3</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Users</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_879751_bib_user</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_879751_bib.user_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-30 11:14:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7695a3b22fa1111092ec90bcf699b696</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Users</sys_name><sys_overrides/><sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package><sys_policy/><sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope><sys_update_name>sys_app_module_7695a3b22fa1111092ec90bcf699b696</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-30 11:14:52</sys_updated_on><timeline_page/><title>Users</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-218626675</payload_hash>
+        <record_name>Users</record_name>
+        <reverted_from/>
+        <source>1d43efbe2f61111092ec90bcf699b6f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-30 11:14:52</sys_created_on>
+        <sys_id>f295a3b22fa1111092ec90bcf699b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ee7614d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-30 11:14:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3e95a3b209a111108d01af4b48752997</update_guid>
+        <update_guid_history>3e95a3b209a111108d01af4b48752997:-218626675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Users">a72627f22fa1111092ec90bcf699b667</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-30 11:17:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>175ec25898d34ae492dbe1a4b6dc5f61</sys_id>
+        <sys_metadata>7695a3b22fa1111092ec90bcf699b696</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sys_app_module_7695a3b22fa1111092ec90bcf699b696</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7695a3b22fa1111092ec90bcf699b696">f295a3b22fa1111092ec90bcf699b698</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-30 11:17:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
