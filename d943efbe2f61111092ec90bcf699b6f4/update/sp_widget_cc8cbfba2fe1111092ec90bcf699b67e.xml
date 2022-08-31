@@ -45,6 +45,7 @@ alert("Angelegt");
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
 	data.user = gs.getUserName();
+	data.id = gs.getUserID();
 	var userObject = gs.getUser();
  
 if(input)
@@ -58,7 +59,7 @@ var gr = new GlideRecord("x_879751_bib_equipment");
       gr.initialize();
 			gr.name=input.name;
 			gr.beschreibung=input.besch;
-			gr.verleiher = gs.getUser();
+			gr.verleiher = gs.getUserID();
  
 gr.insert();
 	
@@ -77,20 +78,20 @@ anz--;
         <sys_created_by>marzel</sys_created_by>
         <sys_created_on>2022-08-30 12:55:16</sys_created_on>
         <sys_id>cc8cbfba2fe1111092ec90bcf699b67e</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>anlegen_textboxes</sys_name>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
         <sys_update_name>sp_widget_cc8cbfba2fe1111092ec90bcf699b67e</sys_update_name>
         <sys_updated_by>marzel</sys_updated_by>
-        <sys_updated_on>2022-08-30 13:55:33</sys_updated_on>
+        <sys_updated_on>2022-08-30 14:19:19</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
-  <div class="main-block">
+  <div>
 
       </div>
-  <h3>Eingeloggt als:            {{data.user}} </h3>
+  <h3>Eingeloggt als: {{data.user}} ID: {{data.id}}</h3>
       <form action="/">
         <h1>Neues Equipment zur Ausleihe anlegen</h1>
         <p>
@@ -99,20 +100,24 @@ anz--;
         </p>
         <div class="info">
           <p>Informationen</p>
+          <label for="name">Artikelname</label><br>
           <input class="fname" 
+                 id="name"
                  type="text" 
                  name="name" 
                  placeholder="Artikelname"
                  ng-model="c.name"
                  
                  >
-          <input type="number" name="name"
+          <br><br>
+          <label for="anzahl">Anzahl</label><br>
+          <input type="number" name="name" id="anzahl"
                  min="1"
                  ng-model="c.anzahl"
                  placeholder="X"
                  >
         </div>
-        
+        <br>
         <div>
           <p>Beschreibung des Artikels</p>
           <textarea rows="2"

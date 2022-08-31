@@ -10,23 +10,23 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">57da377a2fe1111092ec90bcf699b69e</sp_column>
+        <sp_column display_value="1">780d884f2f25111092ec90bcf699b619</sp_column>
         <sp_widget display_value="anlegen_textboxes">cc8cbfba2fe1111092ec90bcf699b67e</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>marzel</sys_created_by>
-        <sys_created_on>2022-08-30 12:55:37</sys_created_on>
-        <sys_id>feacf7fa2fe1111092ec90bcf699b686</sys_id>
+        <sys_created_on>2022-08-30 14:07:04</sys_created_on>
+        <sys_id>550dc44f2f25111092ec90bcf699b6a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
-        <sys_update_name>sp_instance_feacf7fa2fe1111092ec90bcf699b686</sys_update_name>
+        <sys_update_name>sp_instance_550dc44f2f25111092ec90bcf699b6a5</sys_update_name>
         <sys_updated_by>marzel</sys_updated_by>
-        <sys_updated_on>2022-08-30 12:55:37</sys_updated_on>
+        <sys_updated_on>2022-08-30 14:07:04</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=feacf7fa2fe1111092ec90bcf699b686"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=550dc44f2f25111092ec90bcf699b6a5"/>
 </record_update>
