@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_schedule">
+    <wf_workflow_schedule action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>workflow_schedule_bib</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">a96029512f2d911092ec90bcf699b680</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-08-31 11:59:56</run_start>
+        <run_time>1970-01-01 13:10:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var ws = new global.WorkflowScheduler(); ws.run();]]></script>
+        <sys_class_name>wf_workflow_schedule</sys_class_name>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-08-31 12:06:21</sys_created_on>
+        <sys_id>38893cd32f29511092ec90bcf699b662</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workflow_schedule_bib</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>wf_workflow_schedule_38893cd32f29511092ec90bcf699b662</sys_update_name>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-31 12:06:21</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <workflow display_value="workflow_bib">042af4172f29511092ec90bcf699b666</workflow>
+    </wf_workflow_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>wf_workflow_schedule_38893cd32f29511092ec90bcf699b662</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_schedule"&gt;&lt;wf_workflow_schedule action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time/&gt;&lt;name&gt;workflow_schedule_bib&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value=""&gt;a96029512f2d911092ec90bcf699b680&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2022-08-31 11:59:56&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 13:10:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[var ws = new global.WorkflowScheduler(); ws.run();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;wf_workflow_schedule&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mohcine&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-31 12:06:21&lt;/sys_created_on&gt;&lt;sys_id&gt;38893cd32f29511092ec90bcf699b662&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;workflow_schedule_bib&lt;/sys_name&gt;&lt;sys_package display_value="Bib" source="x_879751_bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_schedule_38893cd32f29511092ec90bcf699b662&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mohcine&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-31 12:06:21&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;workflow display_value="workflow_bib"&gt;042af4172f29511092ec90bcf699b666&lt;/workflow&gt;&lt;/wf_workflow_schedule&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>304467625</payload_hash>
+        <record_name>workflow_schedule_bib</record_name>
+        <reverted_from/>
+        <source>665b00532f65511092ec90bcf699b638</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-08-31 12:06:21</sys_created_on>
+        <sys_id>b2fab4572f29511092ec90bcf699b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f3cb95050000001</sys_recorded_at>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-31 12:06:21</sys_updated_on>
+        <type>Workflow Schedule</type>
+        <update_guid>fafab457e02951107b76d4dd3ffe5b06</update_guid>
+        <update_guid_history>fafab457e02951107b76d4dd3ffe5b06:304467625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="workflow_schedule_bib">faddb41b2f29511092ec90bcf699b6eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-08-31 12:18:55</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow_schedule">wf_workflow_schedule</sys_db_object>
+        <sys_id>4a60023d16624217b3707390eac73831</sys_id>
+        <sys_metadata>38893cd32f29511092ec90bcf699b662</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workflow_schedule_bib</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>wf_workflow_schedule_38893cd32f29511092ec90bcf699b662</sys_update_name>
+        <sys_update_version display_value="wf_workflow_schedule_38893cd32f29511092ec90bcf699b662">b2fab4572f29511092ec90bcf699b607</sys_update_version>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-31 12:18:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
