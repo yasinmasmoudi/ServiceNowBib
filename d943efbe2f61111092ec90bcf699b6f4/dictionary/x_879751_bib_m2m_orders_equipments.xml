@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Bib M2m Orders Equipments" max_length="40" name="x_879751_bib_m2m_orders_equipments" type="collection">
-        <element label="Bemerkung" max_length="40" name="bemerkung" type="string"/>
+    <element label="Bib M2m Orders Equipments" max_length="40" name="x_879751_bib_m2m_orders_equipments" sizeclass="1" type="collection">
+        <element label="Bemerkung" max_length="255" name="bemerkung" type="string"/>
         <element attributes="encode_utf8=false" label="Equipment" max_length="32" name="equipment" reference="x_879751_bib_equipment" type="reference"/>
         <element attributes="encode_utf8=false" label="Order" max_length="32" name="order" reference="x_879751_bib_order" type="reference"/>
         <element choice="1" default="0" label="State" max_length="40" name="state" type="choice">

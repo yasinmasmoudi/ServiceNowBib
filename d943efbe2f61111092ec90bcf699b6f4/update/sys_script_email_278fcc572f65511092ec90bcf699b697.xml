@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
     <sys_script_email action="INSERT_OR_UPDATE">
-        <name>verleiher_benachrichtigung_ueber_rueckgabe</name>
+        <name>notification_verleiher_ueber_rueckgabe</name>
         <new_lines_to_html>false</new_lines_to_html>
         <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template, /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action, /* Optional GlideRecord */ event) {
 	
@@ -9,7 +9,7 @@
 	lender_equipment.addQuery("sys_id",current.getUniqueValue());
 	lender_equipment.query();
 	
-	//
+	// Übertrage Informationen über Equipment und Ausleiher in Email-Body
 	while (lender_equipment.next()) {
 		template.print("<h4>Rückgabe " + lender_equipment.equipment.name + "</h4>"
 		+ "<div>Das Equipment:<br><br>" 
@@ -25,13 +25,13 @@
         <sys_created_by>pascal</sys_created_by>
         <sys_created_on>2022-08-31 09:26:12</sys_created_on>
         <sys_id>278fcc572f65511092ec90bcf699b697</sys_id>
-        <sys_mod_count>33</sys_mod_count>
-        <sys_name>verleiher_benachrichtigung_ueber_rueckgabe</sys_name>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>notification_verleiher_ueber_rueckgabe</sys_name>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
         <sys_update_name>sys_script_email_278fcc572f65511092ec90bcf699b697</sys_update_name>
         <sys_updated_by>pascal</sys_updated_by>
-        <sys_updated_on>2022-08-31 12:29:18</sys_updated_on>
+        <sys_updated_on>2022-08-31 13:02:43</sys_updated_on>
     </sys_script_email>
 </record_update>
