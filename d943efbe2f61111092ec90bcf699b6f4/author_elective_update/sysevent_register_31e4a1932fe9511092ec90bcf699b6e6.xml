@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>send notifikation</description>
+        <event_name>x_879751_bib.test.event.email</event_name>
+        <fired_by>Flow Test Demo</fired_by>
+        <queue/>
+        <suffix>test.event.email</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-08-31 15:10:50</sys_created_on>
+        <sys_id>31e4a1932fe9511092ec90bcf699b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_879751_bib.test.event.email</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sysevent_register_31e4a1932fe9511092ec90bcf699b6e6</sys_update_name>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:10:50</sys_updated_on>
+        <table>incident</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sysevent_register_31e4a1932fe9511092ec90bcf699b6e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>send notifikation</description><event_name>x_879751_bib.test.event.email</event_name><fired_by>Flow Test Demo</fired_by><queue/><suffix>test.event.email</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>mohcine</sys_created_by><sys_created_on>2022-08-31 15:10:50</sys_created_on><sys_id>31e4a1932fe9511092ec90bcf699b6e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_879751_bib.test.event.email</sys_name><sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package><sys_policy/><sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope><sys_update_name>sysevent_register_31e4a1932fe9511092ec90bcf699b6e6</sys_update_name><sys_updated_by>mohcine</sys_updated_by><sys_updated_on>2022-08-31 15:10:50</sys_updated_on><table>incident</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>138447447</payload_hash>
+        <record_name>x_879751_bib.test.event.email</record_name>
+        <reverted_from/>
+        <source>665b00532f65511092ec90bcf699b638</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-08-31 15:10:50</sys_created_on>
+        <sys_id>9535a1d32fe9511092ec90bcf699b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182f4747b5d0000001</sys_recorded_at>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:10:50</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>dd35a1d3b9e95110d4a4436406da2ebc</update_guid>
+        <update_guid_history>dd35a1d3b9e95110d4a4436406da2ebc:138447447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-09-01 08:03:41</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>0b59cc4deeea4a7a9c4d806535721c84</sys_id>
+        <sys_metadata>31e4a1932fe9511092ec90bcf699b6e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_879751_bib.test.event.email</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent display_value="Incident">7ca8ccf121920110a866589604c20d16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sysevent_register_31e4a1932fe9511092ec90bcf699b6e6</sys_update_name>
+        <sys_update_version display_value="sysevent_register_31e4a1932fe9511092ec90bcf699b6e6">9535a1d32fe9511092ec90bcf699b6bd</sys_update_version>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-09-01 08:03:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

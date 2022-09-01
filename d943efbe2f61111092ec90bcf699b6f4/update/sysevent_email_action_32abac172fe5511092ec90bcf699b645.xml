@@ -6,10 +6,8 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_879751_bib_m2m_orders_equipments</collection>
-        <condition table="x_879751_bib_m2m_orders_equipments">order.datumRELATIVEGT@dayofweek@ahead@3^EQ<item endquery="false" field="order.datum" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@dayofweek@ahead@3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
+        <collection>x_879751_bib_order</collection>
+        <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
@@ -24,27 +22,28 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>workflow.notification</event_name>
+        <event_name>x_879751_bib.event_reminder</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>event</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>${mail_script:Voraberinnerung_script}</p>]]></message_html>
+        <message_html><![CDATA[<p>heyyy</p>
+<p>${mail_script:Voraberinnerung_script}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Voraberinnerung</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>order.user.email</recipient_fields>
+        <recipient_fields/>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -59,15 +58,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32abac172fe5511092ec90bcf699b645</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Voraberinnerung</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
         <sys_update_name>sysevent_email_action_32abac172fe5511092ec90bcf699b645</sys_update_name>
-        <sys_updated_by>pascal</sys_updated_by>
-        <sys_updated_on>2022-08-31 13:55:39</sys_updated_on>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-09-01 07:30:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
