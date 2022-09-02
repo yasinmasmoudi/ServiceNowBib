@@ -32,7 +32,7 @@
 	// Add your code here
 	var gdt = new GlideDateTime();
 gdt.setDisplayValue("datum");//put right field name
-gdt.addDays(-3); //deduct 5 days form the selected date
+gdt.addDaysUTC(-3); //deduct 5 days form the selected date
 //put yoru scheduled sys_id here
 
 gs.eventQueue("x_879751_bib.event_reminder",current,current.getValue("datum"),gs.getUserName());
@@ -43,15 +43,15 @@ gs.eventQueue("x_879751_bib.event_reminder",current,current.getValue("datum"),gs
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0b149a72f69911092ec90bcf699b620</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>br_reminder</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
         <sys_update_name>sys_script_d0b149a72f69911092ec90bcf699b620</sys_update_name>
-        <sys_updated_by>mohcine</sys_updated_by>
-        <sys_updated_on>2022-09-01 08:02:08</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 15:27:26</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
