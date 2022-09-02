@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_source">
+    <sp_search_source action="DELETE">
+        <advanced_typeahead_config>false</advanced_typeahead_config>
+        <condition table="x_879751_bib_equipment">name=name^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="name"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <data_fetch_script><![CDATA[(function(query) {
+  var results = [];
+  /* Calculate your results here. */
+  
+  return results;
+})(query);]]></data_fetch_script>
+        <display_fields>name,equipmentid,state,number</display_fields>
+        <enable_typeahead>true</enable_typeahead>
+        <facet_generation_script><![CDATA[(function(query, facetService, searchResults) {
+	/* Calculate your facets here using facetService */
+	/* var stateFacet = facetService.createFacet('State', 'state'); */
+	/* stateFacet.addFacetItem('Facet Item Label', '123'); */
+
+})(query, facetService, searchResults);]]></facet_generation_script>
+        <id>search</id>
+        <is_scripted_source>false</is_scripted_source>
+        <name>Search</name>
+        <page/>
+        <pagination_supported>true</pagination_supported>
+        <primary_display_field>name</primary_display_field>
+        <roles/>
+        <search_page_template><![CDATA[<div>
+<!-- your widget template -->
+  
+  <h3> Sie sind als {{data.user}} eingeloggt </h3><br>
+  <h1> Neues Equipment ausleihen </h1><br>
+  
+  <div class="suche-form">
+    <form>
+      <label for="suche"> Name des Artikels:  </label>
+      <input type="text"
+             id="suche"
+             name="suche"
+             placeholder="suche..." 
+      >
+      <button type="submit">Suchen</button>
+      
+
+
+
+    </form>
+  </div>
+  
+  
+  
+</div>]]></search_page_template>
+        <source_table>x_879751_bib_equipment</source_table>
+        <sys_class_name>sp_search_source</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:04:13</sys_created_on>
+        <sys_id>d18950cb2f65111092ec90bcf699b617</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_search_source_d18950cb2f65111092ec90bcf699b617</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:14:09</sys_updated_on>
+        <typeahead_glyph/>
+        <typeahead_template/>
+    </sp_search_source>
+    <sys_translated_text action="DELETE" query="documentkey=d18950cb2f65111092ec90bcf699b617"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_search_source_d18950cb2f65111092ec90bcf699b617</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_search_source"&gt;&lt;sp_search_source action="INSERT_OR_UPDATE"&gt;&lt;advanced_typeahead_config&gt;false&lt;/advanced_typeahead_config&gt;&lt;condition table="x_879751_bib_equipment"&gt;name=name^EQ&lt;item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="name"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;data_fetch_script&gt;&lt;![CDATA[(function(query) {
+  var results = [];
+  /* Calculate your results here. */
+  
+  return results;
+})(query);]]&gt;&lt;/data_fetch_script&gt;&lt;display_fields&gt;name,equipmentid,state,number&lt;/display_fields&gt;&lt;enable_typeahead&gt;true&lt;/enable_typeahead&gt;&lt;facet_generation_script&gt;&lt;![CDATA[(function(query, facetService, searchResults) {
+	/* Calculate your facets here using facetService */
+	/* var stateFacet = facetService.createFacet('State', 'state'); */
+	/* stateFacet.addFacetItem('Facet Item Label', '123'); */
+
+})(query, facetService, searchResults);]]&gt;&lt;/facet_generation_script&gt;&lt;id&gt;search&lt;/id&gt;&lt;is_scripted_source&gt;false&lt;/is_scripted_source&gt;&lt;name&gt;Search&lt;/name&gt;&lt;page/&gt;&lt;pagination_supported&gt;true&lt;/pagination_supported&gt;&lt;primary_display_field&gt;name&lt;/primary_display_field&gt;&lt;roles/&gt;&lt;search_page_template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+  
+  &lt;h3&gt; Sie sind als {{data.user}} eingeloggt &lt;/h3&gt;&lt;br&gt;
+  &lt;h1&gt; Neues Equipment ausleihen &lt;/h1&gt;&lt;br&gt;
+  
+  &lt;div class="suche-form"&gt;
+    &lt;form&gt;
+      &lt;label for="suche"&gt; Name des Artikels:  &lt;/label&gt;
+      &lt;input type="text"
+             id="suche"
+             name="suche"
+             placeholder="suche..." 
+      &gt;
+      &lt;button type="submit"&gt;Suchen&lt;/button&gt;
+      
+
+
+
+    &lt;/form&gt;
+  &lt;/div&gt;
+  
+  
+  
+&lt;/div&gt;]]&gt;&lt;/search_page_template&gt;&lt;source_table&gt;x_879751_bib_equipment&lt;/source_table&gt;&lt;sys_class_name&gt;sp_search_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;othmane&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-30 15:04:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d18950cb2f65111092ec90bcf699b617&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Search&lt;/sys_name&gt;&lt;sys_package display_value="Bib" source="x_879751_bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_search_source_d18950cb2f65111092ec90bcf699b617&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;othmane&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-30 15:14:09&lt;/sys_updated_on&gt;&lt;typeahead_glyph/&gt;&lt;typeahead_template/&gt;&lt;/sp_search_source&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d18950cb2f65111092ec90bcf699b617"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>171434546</payload_hash>
+        <record_name>Search</record_name>
+        <reverted_from/>
+        <source>f07aafb62fa1111092ec90bcf699b6bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:14:09</sys_created_on>
+        <sys_id>086c908f2f65111092ec90bcf699b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ef5127920000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:14:09</sys_updated_on>
+        <type>Search Source</type>
+        <update_guid>006c908f91651110ae16ef119a17ed0b</update_guid>
+        <update_guid_history>006c908f91651110ae16ef119a17ed0b:171434546,8f1b580fdf651110ded4ed4bdafe3c63:706796259,ae1ad0cb7e651110e053b5b074d62d49:-1872698931</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Search">b04f90432fa5111092ec90bcf699b61d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:26:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_search_source">sp_search_source</sys_db_object>
+        <sys_id>068853a25e7b4782bdca21148df889e1</sys_id>
+        <sys_metadata>d18950cb2f65111092ec90bcf699b617</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_search_source_d18950cb2f65111092ec90bcf699b617</sys_update_name>
+        <sys_update_version display_value="sp_search_source_d18950cb2f65111092ec90bcf699b617">086c908f2f65111092ec90bcf699b60b</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:26:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

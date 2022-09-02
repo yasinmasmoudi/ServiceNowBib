@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">794a1ccb2f65111092ec90bcf699b61b</sp_column>
+        <sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:09:54</sys_created_on>
+        <sys_id>a56b1c0f2f65111092ec90bcf699b62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_ais_a56b1c0f2f65111092ec90bcf699b62d</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:09:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=a56b1c0f2f65111092ec90bcf699b62d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_ais_a56b1c0f2f65111092ec90bcf699b62d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">794a1ccb2f65111092ec90bcf699b61b</sp_column><sp_widget display_value="Typeahead Search">fa20ec02cb31020000f8d856634c9ce9</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>othmane</sys_created_by><sys_created_on>2022-08-30 15:09:54</sys_created_on><sys_id>a56b1c0f2f65111092ec90bcf699b62d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package><sys_policy/><sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope><sys_update_name>sp_instance_ais_a56b1c0f2f65111092ec90bcf699b62d</sys_update_name><sys_updated_by>othmane</sys_updated_by><sys_updated_on>2022-08-30 15:09:54</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=a56b1c0f2f65111092ec90bcf699b62d"/></record_update>]]></payload>
+        <payload_hash>316617168</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f07aafb62fa1111092ec90bcf699b6bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:09:54</sys_created_on>
+        <sys_id>ad6b1c0f2f65111092ec90bcf699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ef4d42c90000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:09:54</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>e56b1c0ffd651110a67519bcce728b2f</update_guid>
+        <update_guid_history>e56b1c0ffd651110a67519bcce728b2f:316617168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">818b1c0f2f65111092ec90bcf699b688</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:10:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>0fb2a557f6ab4224ae84ae136562d590</sys_id>
+        <sys_metadata>a56b1c0f2f65111092ec90bcf699b62d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_a56b1c0f2f65111092ec90bcf699b62d</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_a56b1c0f2f65111092ec90bcf699b62d">ad6b1c0f2f65111092ec90bcf699b62f</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:10:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
