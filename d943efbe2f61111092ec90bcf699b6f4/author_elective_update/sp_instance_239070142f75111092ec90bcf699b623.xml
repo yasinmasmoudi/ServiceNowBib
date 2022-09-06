@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">7931f0542f75111092ec90bcf699b639</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:55:00</sys_created_on>
+        <sys_id>239070142f75111092ec90bcf699b623</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_239070142f75111092ec90bcf699b623</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:57:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev92656.service-now.com/bibliothek/?id=ansehen_status",
+		"displayValue": "https://dev92656.service-now.com/bibliothek/?id=ansehen_status"
+	},
+	"button_text": {
+		"value": "VEREIHER: Equipmentstatus einsehen",
+		"displayValue": "VEREIHER: Equipmentstatus einsehen"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=239070142f75111092ec90bcf699b623"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_239070142f75111092ec90bcf699b623</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;danger&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;7931f0542f75111092ec90bcf699b639&lt;/sp_column&gt;&lt;sp_widget display_value="link-button"&gt;abc50de6d702120023c84f80de61036a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marzel&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-03 13:55:00&lt;/sys_created_on&gt;&lt;sys_id&gt;239070142f75111092ec90bcf699b623&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Bib" source="x_879751_bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_239070142f75111092ec90bcf699b623&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marzel&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-03 13:57:41&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"href": {
+		"value": "https://dev92656.service-now.com/bibliothek/?id=ansehen_status",
+		"displayValue": "https://dev92656.service-now.com/bibliothek/?id=ansehen_status"
+	},
+	"button_text": {
+		"value": "VEREIHER: Equipmentstatus einsehen",
+		"displayValue": "VEREIHER: Equipmentstatus einsehen"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=239070142f75111092ec90bcf699b623"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>645106716</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1afc77f72f21111092ec90bcf699b6c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:57:41</sys_created_on>
+        <sys_id>8f31f0542f75111092ec90bcf699b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18303a497890000001</sys_recorded_at>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:57:41</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8731f054487511105e9e669a614418cf</update_guid>
+        <update_guid_history>8731f054487511105e9e669a614418cf:645106716,e631bc14fd7511100ebaa54b13e7a78a:-1252492427,0cd07814a37511106b6d7fc2fed12645:-1147307729,2b90701457751110904fb42a7ee06424:-1020498443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1c41f8142f75111092ec90bcf699b6c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:57:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>01bc4bc317ea49f6833965a75ddd5304</sys_id>
+        <sys_metadata>239070142f75111092ec90bcf699b623</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_instance_239070142f75111092ec90bcf699b623</sys_update_name>
+        <sys_update_version display_value="sp_instance_239070142f75111092ec90bcf699b623">8f31f0542f75111092ec90bcf699b6cf</sys_update_version>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:57:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

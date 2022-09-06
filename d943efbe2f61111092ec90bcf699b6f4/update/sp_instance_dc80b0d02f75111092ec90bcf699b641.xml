@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7d3130542f75111092ec90bcf699b602</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:54:29</sys_created_on>
+        <sys_id>dc80b0d02f75111092ec90bcf699b641</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_dc80b0d02f75111092ec90bcf699b641</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-06 12:07:20</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "/bibliothek/?id=form&table=x_879751_bib_order",
+		"displayValue": "/bibliothek/?id=form&table=x_879751_bib_order"
+	},
+	"button_text": {
+		"value": "Neue Ausleihe erstellen",
+		"displayValue": "Neue Ausleihe erstellen"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc80b0d02f75111092ec90bcf699b641"/>
+</record_update>

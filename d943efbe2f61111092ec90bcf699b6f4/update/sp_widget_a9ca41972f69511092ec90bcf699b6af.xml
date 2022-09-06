@@ -6,24 +6,14 @@
   var c = this;
 	
 	
-	//gr.query(response);
-/*
-function response(result) {
-
-                while(result.next()) {
-
-
-									data.test={{data.test}};
-
-                }
-
-}*/
+	//this.fname = currentUser.firstName
 	
-	
-/*
+
+	/*
 c.test = function(){
 			
 c.data.bemerkung=c.bem;
+c.data.sysid=item.sys_id;
 //c.data.user=gs.getUser();
 		
 //c.data.user = g_user.userID;
@@ -34,17 +24,16 @@ c.server.update().then(function()
 alert("Bemerkung gesetzt");
 });
 }
- */
+ 
 
-	
+*/	
 };
 
 
-
+//https://dev92656.service-now.com
 //Für html:
 /*
-Setze die Bemerkung zu dieser Ausleihe:
-   <form action="/">
+<form action="/">
           <input class="fname" 
                  id="name"
                  type="text" 
@@ -52,9 +41,10 @@ Setze die Bemerkung zu dieser Ausleihe:
                  ng-model="c.bem"
                  >
                  
-  
+  <input type="text" id="sysId" name="sysId" [(ngModel)]="{{::item.sys_id}}" value="{{::item.sys_id}}"  >
         <button type="button" ng-click=c.test() href=".">Setzen</button>
       </form>
+  
 			*/]]></client_script>
         <controller_as>c</controller_as>
         <css/>
@@ -110,14 +100,19 @@ getequip.orderBy('number');
 	
 getequip.query(); 
 
+
 data.list = [];
 
 while(getequip.next()){
+	
 	var todo = {};
 	
 	todo.name = getequip.getDisplayValue('name');
 	todo.state = getequip.getDisplayValue('state');
 	todo.enum = getequip.getDisplayValue('number');
+	
+	//todo.sys_id = getequip.getUniqueValue();
+	
 	
 	
 	
@@ -138,35 +133,27 @@ lastleihe.query();
       while (lastleihe.next()){
 			}
 	
-	todo.lastorder = lastleihe.getDisplayValue('order');
+	todo.lastorder = lastleihe.getDisplayValue('order.orderid');
 	todo.laststate = lastleihe.getDisplayValue('state');
 	todo.lastbemerkung = lastleihe.getDisplayValue('bemerkung');
+	todo.id =  lastleihe.getUniqueValue();
 	
 	
 	data.list.push(todo);
 	
+	//data.sys_id = getequip.getUniqueValue();
 }
 	
 	
-/*	
+	/*
 if(input)
 {
-var anz = input.bemerkung;
-
-	
-while(anz > 0){
 	
 var gr = new GlideRecord("x_879751_bib_equipment");
-      gr.initialize();
-			gr.name=input.name;
-			gr.beschreibung=input.besch;
-			gr.verleiher = gs.getUserID();
- 
-gr.insert();
-	
-	
-anz--;
-}
+  gr.get(input.sysid);
+	gr.beschreibung = input.bemerkung;
+	gr.update();
+
 //data.a=gr.getDisplayValue('number');
 //gs.addInfoMessage("Incident Is Created");
  
@@ -175,7 +162,6 @@ anz--;
 
 */
 	
-	
 
 })();]]></script>
         <servicenow>false</servicenow>
@@ -183,14 +169,14 @@ anz--;
         <sys_created_by>marzel</sys_created_by>
         <sys_created_on>2022-08-31 13:15:21</sys_created_on>
         <sys_id>a9ca41972f69511092ec90bcf699b6af</sys_id>
-        <sys_mod_count>77</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_name>alist_my_equip</sys_name>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
         <sys_update_name>sp_widget_a9ca41972f69511092ec90bcf699b6af</sys_update_name>
         <sys_updated_by>marzel</sys_updated_by>
-        <sys_updated_on>2022-08-31 15:06:10</sys_updated_on>
+        <sys_updated_on>2022-09-06 12:00:46</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
   <h3>Eingeloggt als: {{data.user}}</h3>
@@ -214,10 +200,14 @@ anz--;
   <br><br>
   Zuletzt in der Ausleihe: {{::item.lastorder}} 
   | Mit dem momentanen Status: {{::item.state}} 
-  <br>
-  Und der Bemerkung: {{::item.lastbemerkung}} <br>
-  
+  <br> <br>
+  Momentane Bemerkung: {{::item.lastbemerkung}} <br> <br>
+  Bemerkung und State ändern:
+  <a href="/bibliothek/?id=form&table=x_879751_bib_m2m_orders_equipments&view=verleiher&sys_id={{::item.id}} ">
+    <button>HIER</button></a> (Danach per Zurück wieder auf die Übersicht)
 
+  <br>
+  </div>
   <br>
 </li>
       

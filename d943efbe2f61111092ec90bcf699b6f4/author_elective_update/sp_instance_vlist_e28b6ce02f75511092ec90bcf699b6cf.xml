@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7139e4602f75511092ec90bcf699b6d5</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-04 08:11:17</sys_created_on>
+        <sys_id>e28b6ce02f75511092ec90bcf699b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_vlist_e28b6ce02f75511092ec90bcf699b6cf</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-04 08:11:17</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=e28b6ce02f75511092ec90bcf699b6cf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_vlist_e28b6ce02f75511092ec90bcf699b6cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>2</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">7139e4602f75511092ec90bcf699b6d5</sp_column><sp_page/><sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>marzel</sys_created_by><sys_created_on>2022-09-04 08:11:17</sys_created_on><sys_id>e28b6ce02f75511092ec90bcf699b6cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package><sys_policy/><sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope><sys_update_name>sp_instance_vlist_e28b6ce02f75511092ec90bcf699b6cf</sys_update_name><sys_updated_by>marzel</sys_updated_by><sys_updated_on>2022-09-04 08:11:17</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=e28b6ce02f75511092ec90bcf699b6cf"/></record_update>]]></payload>
+        <payload_hash>-1397534544</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1afc77f72f21111092ec90bcf699b6c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-04 08:11:17</sys_created_on>
+        <sys_id>aa8ba0242f75511092ec90bcf699b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183078dcdf30000001</sys_recorded_at>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-04 08:11:17</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>e28ba024c5755110a7c08f21259d057b</update_guid>
+        <update_guid_history>e28ba024c5755110a7c08f21259d057b:-1397534544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">980ce4242f75511092ec90bcf699b679</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-04 08:13:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>a516d8a39c314b2c8fe24ff9decef690</sys_id>
+        <sys_metadata>e28b6ce02f75511092ec90bcf699b6cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_e28b6ce02f75511092ec90bcf699b6cf</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_e28b6ce02f75511092ec90bcf699b6cf">aa8ba0242f75511092ec90bcf699b67b</sys_update_version>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-04 08:13:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
