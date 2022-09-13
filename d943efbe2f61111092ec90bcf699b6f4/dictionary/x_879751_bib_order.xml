@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Order" max_length="40" name="x_879751_bib_order" sizeclass="12" type="collection">
+    <element label="Order" max_length="40" name="x_879751_bib_order" type="collection">
         <element label="Datum" max_length="40" name="datum" type="glide_date"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="OrderID" max_length="40" name="orderid" read_only="true" type="string" use_dynamic_default="true"/>
         <element choice="1" default="0" label="State" max_length="40" name="state" read_only="true" type="choice">
@@ -9,7 +9,16 @@
                 <element inactive_on_update="false" label="Open" value="0"/>
             </choice>
         </element>
+        <element choice="1" default="0" label="StateDatum" max_length="40" name="statedatum" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="abgelaufen" value="1"/>
+                <element inactive_on_update="false" label="correct" value="0"/>
+            </choice>
+        </element>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="40" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="x_879751_bib_equipment" type="glide_list"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
     </element>
 </database>

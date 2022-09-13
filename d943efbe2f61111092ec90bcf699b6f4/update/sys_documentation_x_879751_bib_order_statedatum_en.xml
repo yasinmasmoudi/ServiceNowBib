@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="statedatum" label="StateDatum" language="en" table="x_879751_bib_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>statedatum</element>
+            <help/>
+            <hint/>
+            <label>StateDatum</label>
+            <language>en</language>
+            <name>x_879751_bib_order</name>
+            <plural>StateDatums</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>yasin.masmoudi@alumni.fh-aachen.de</sys_created_by>
+            <sys_created_on>2022-09-13 17:26:18</sys_created_on>
+            <sys_id>64e08d231b799110b342dc61ab4bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>StateDatum</sys_name>
+            <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+            <sys_update_name>sys_documentation_x_879751_bib_order_statedatum_en</sys_update_name>
+            <sys_updated_by>yasin.masmoudi@alumni.fh-aachen.de</sys_updated_by>
+            <sys_updated_on>2022-09-13 17:26:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

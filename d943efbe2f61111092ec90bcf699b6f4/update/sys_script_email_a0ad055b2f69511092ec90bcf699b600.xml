@@ -19,7 +19,7 @@
 		template.print("<table>"+"<tr>"+"<th>Titel&nbsp</th>"+"<th>Leihfristende</th>"+"</tr>");
 		
 		template.print("<tr>"+"<td>"+equipment_name+"&nbsp</td>"+"<td>"+frist+"</td>"+"</tr>");
-		template.print("<br>Bitte geben Sie die genannten Medien rechtzeitig zurück");
+		template.print("<br>Bitte geben Sie die genannten Medien rechtzeitig zurück<br>");
 		template.print("Mit freundlichen Grüßen"+"<br>"+"Ihr Bibliotheksteam");
 	}
 
@@ -28,13 +28,13 @@
         <sys_created_by>mohcine</sys_created_by>
         <sys_created_on>2022-08-31 13:32:07</sys_created_on>
         <sys_id>a0ad055b2f69511092ec90bcf699b600</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Voraberinnerung_script</sys_name>
         <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
         <sys_update_name>sys_script_email_a0ad055b2f69511092ec90bcf699b600</sys_update_name>
-        <sys_updated_by>mohcine</sys_updated_by>
-        <sys_updated_on>2022-08-31 13:35:07</sys_updated_on>
+        <sys_updated_by>yasin.masmoudi@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-13 16:39:45</sys_updated_on>
     </sys_script_email>
 </record_update>
