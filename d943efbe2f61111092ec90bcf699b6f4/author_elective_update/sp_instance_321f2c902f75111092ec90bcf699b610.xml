@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">12bcecdc2f35111092ec90bcf699b63c</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:48:23</sys_created_on>
+        <sys_id>321f2c902f75111092ec90bcf699b610</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_321f2c902f75111092ec90bcf699b610</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:48:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=321f2c902f75111092ec90bcf699b610"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_321f2c902f75111092ec90bcf699b610</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">12bcecdc2f35111092ec90bcf699b63c</sp_column><sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>marzel</sys_created_by><sys_created_on>2022-09-03 13:48:23</sys_created_on><sys_id>321f2c902f75111092ec90bcf699b610</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package><sys_policy/><sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope><sys_update_name>sp_instance_321f2c902f75111092ec90bcf699b610</sys_update_name><sys_updated_by>marzel</sys_updated_by><sys_updated_on>2022-09-03 13:48:23</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=321f2c902f75111092ec90bcf699b610"/></record_update>]]></payload>
+        <payload_hash>-1991109723</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1afc77f72f21111092ec90bcf699b6c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:48:23</sys_created_on>
+        <sys_id>fe1f2c902f75111092ec90bcf699b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183039c11fc0000001</sys_recorded_at>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:48:23</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3a1f2c90d6751110e4400eaf00281411</update_guid>
+        <update_guid_history>3a1f2c90d6751110e4400eaf00281411:-1991109723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">592f2c902f75111092ec90bcf699b646</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:48:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>92dc07fd4896424095c7e795b532c329</sys_id>
+        <sys_metadata>321f2c902f75111092ec90bcf699b610</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_instance_321f2c902f75111092ec90bcf699b610</sys_update_name>
+        <sys_update_version display_value="sp_instance_321f2c902f75111092ec90bcf699b610">fe1f2c902f75111092ec90bcf699b611</sys_update_version>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:48:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

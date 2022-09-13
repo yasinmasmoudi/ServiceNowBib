@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	c.test = function(){
+			
+c.data.name=c.name;
+c.data.besch=c.beschreibung;
+		
+c.data.anzahl=c.anzahl;
+//c.data.user=gs.getUser();
+		
+//c.data.user = g_user.userID;
+ 
+		
+c.server.update().then(function()
+     {
+alert("Angelegt");
+});
+ 
+
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>anlegen_textboxes</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.user = gs.getUserName();
+	data.id = gs.getUserID();
+	var userObject = gs.getUser();
+ 
+if(input)
+{
+var anz = input.anzahl;
+
+	
+while(anz > 0){
+	
+var gr = new GlideRecord("x_879751_bib_equipment");
+      gr.initialize();
+			gr.name=input.name;
+			gr.beschreibung=input.besch;
+			gr.verleiher = gs.getUserID();
+ 
+gr.insert();
+	
+	
+anz--;
+}
+//data.a=gr.getDisplayValue('number');
+//gs.addInfoMessage("Incident Is Created");
+ 
+ 
+}
+ 
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-08-30 12:55:16</sys_created_on>
+        <sys_id>cc8cbfba2fe1111092ec90bcf699b67e</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>anlegen_textboxes</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_widget_cc8cbfba2fe1111092ec90bcf699b67e</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-08-30 14:19:19</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div>
+
+      </div>
+  <h3>Eingeloggt als: {{data.user}} ID: {{data.id}}</h3>
+      <form action="/">
+        <h1>Neues Equipment zur Ausleihe anlegen</h1>
+        <p>
+          Sie legen ein neues Equipment immer automatisch mit Ihrem Namen als "Verleiher" ein.
+					Für jeden Artikel wird eine eigene Nummer generiert. Den Status ihrer Artiekl können Sie unter LINK einsehen.
+        </p>
+        <div class="info">
+          <p>Informationen</p>
+          <label for="name">Artikelname</label><br>
+          <input class="fname" 
+                 id="name"
+                 type="text" 
+                 name="name" 
+                 placeholder="Artikelname"
+                 ng-model="c.name"
+                 
+                 >
+          <br><br>
+          <label for="anzahl">Anzahl</label><br>
+          <input type="number" name="name" id="anzahl"
+                 min="1"
+                 ng-model="c.anzahl"
+                 placeholder="X"
+                 >
+        </div>
+        <br>
+        <div>
+          <p>Beschreibung des Artikels</p>
+          <textarea rows="2"
+                    ng-model = "c.beschreibung"
+                    ></textarea>
+        </div>
+        <button type="button" ng-click=c.test() href=".">Anlegen</button>
+      </form>
+   </div>
+]]></template>
+    </sp_widget>
+</record_update>

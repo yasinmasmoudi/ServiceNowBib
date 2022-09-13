@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ebbc68dc2f35111092ec90bcf699b687</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:39:30</sys_created_on>
+        <sys_id>341de4102f75111092ec90bcf699b618</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_341de4102f75111092ec90bcf699b618</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:47:49</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<pre><br></pre><pre class=\"language-markup\" contenteditable=\"false\"><span class=\"token doctype\">&lt;!DOCTYPE html&gt;</span>\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>html</span> <span class=\"token attr-name\">lang</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>de<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">&gt;</span></span>\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>head</span><span class=\"token punctuation\">&gt;</span></span> \n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>title</span><span class=\"token punctuation\">&gt;</span></span>akademie.de-Workshop<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>title</span><span class=\"token punctuation\">&gt;</span></span>\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>meta</span> <span class=\"token attr-name\">http-equiv</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>content-type<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">content</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>text/html; charset<span class=\"token punctuation\">=</span>utf-8<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/&gt;</span></span>\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>link</span> <span class=\"token attr-name\">rel</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>stylesheet<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">href</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>style.css<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>text/css<span class=\"token punctuation\">\"</span></span> <span class=\"token punctuation\">/&gt;</span></span>\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>head</span><span class=\"token punctuation\">&gt;</span></span> \n\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>body</span><span class=\"token punctuation\">&gt;</span></span>\n\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">id</span><span class=\"token attr-value\"><span class=\"token punctuation\">=</span><span class=\"token punctuation\">\"</span>container<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">&gt;</span></span> \n\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>div</span><span class=\"token punctuation\">&gt;</span></span>&lt;!-- /#container →\n\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>body</span><span class=\"token punctuation\">&gt;</span></span> \n\n <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>html</span><span class=\"token punctuation\">&gt;</span></span></pre>",
+		"displayValue": "<pre>&nbsp;</pre>\n<pre class=\"language-markup\"><code>&lt;!DOCTYPE html&gt;\n &lt;html lang=\"de\"&gt;\n &lt;head&gt; \n &lt;title&gt;akademie.de-Workshop&lt;/title&gt;\n &lt;meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /&gt;\n &lt;link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" /&gt;\n &lt;/head&gt; \n\n &lt;body&gt;\n\n &lt;div id=\"container\"&gt; \n\n &lt;/div&gt;&lt;!-- /#container &rarr;\n\n &lt;/body&gt; \n\n &lt;/html&gt;</code></pre>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=341de4102f75111092ec90bcf699b618"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_341de4102f75111092ec90bcf699b618</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;ebbc68dc2f35111092ec90bcf699b687&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marzel&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-03 13:39:30&lt;/sys_created_on&gt;&lt;sys_id&gt;341de4102f75111092ec90bcf699b618&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Bib" source="x_879751_bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bib"&gt;d943efbe2f61111092ec90bcf699b6f4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_341de4102f75111092ec90bcf699b618&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marzel&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-03 13:47:49&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre class=\"language-markup\" contenteditable=\"false\"&gt;&lt;span class=\"token doctype\"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;lang&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;de&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;head&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&#8232;\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;title&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;akademie.de-Workshop&lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;/&lt;/span&gt;title&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;meta&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;http-equiv&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;content-type&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;content&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;text/html; charset&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;utf-8&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt; &lt;span class=\"token punctuation\"&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;rel&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;stylesheet&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;href&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;style.css&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;type&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;text/css&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt; &lt;span class=\"token punctuation\"&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;/&lt;/span&gt;head&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&#8232;\n\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;\n\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=\"token attr-name\"&gt;id&lt;/span&gt;&lt;span class=\"token attr-value\"&gt;&lt;span class=\"token punctuation\"&gt;=&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;container&lt;span class=\"token punctuation\"&gt;\"&lt;/span&gt;&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&#8232;\n\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&amp;lt;!-- /#container →\n\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&#8232;\n\n &lt;span class=\"token tag\"&gt;&lt;span class=\"token tag\"&gt;&lt;span class=\"token punctuation\"&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=\"token punctuation\"&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;",
+		"displayValue": "&lt;pre&gt;&amp;nbsp;&lt;/pre&gt;\n&lt;pre class=\"language-markup\"&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;\n &amp;lt;html lang=\"de\"&amp;gt;\n &amp;lt;head&amp;gt;&#8232;\n &amp;lt;title&amp;gt;akademie.de-Workshop&amp;lt;/title&amp;gt;\n &amp;lt;meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /&amp;gt;\n &amp;lt;link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" /&amp;gt;\n &amp;lt;/head&amp;gt;&#8232;\n\n &amp;lt;body&amp;gt;\n\n &amp;lt;div id=\"container\"&amp;gt;&#8232;\n\n &amp;lt;/div&amp;gt;&amp;lt;!-- /#container &amp;rarr;\n\n &amp;lt;/body&amp;gt;&#8232;\n\n &amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=341de4102f75111092ec90bcf699b618"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1700152169</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1afc77f72f21111092ec90bcf699b6c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:47:49</sys_created_on>
+        <sys_id>eafe68902f75111092ec90bcf699b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183039b8e920000001</sys_recorded_at>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:47:49</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e2fe6890dd7511102225d11507bf3b65</update_guid>
+        <update_guid_history>e2fe6890dd7511102225d11507bf3b65:1700152169,3edea450ae75111034886dbf7f0bda62:542294200,043d2cdc86351110650b521af832f04a:-347308560,301de410ff7511103136e1452bdf151a:434502570</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d01fe8902f75111092ec90bcf699b623</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-09-03 13:48:13</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0001730b38064c88800000c89c3c2240</sys_id>
+        <sys_metadata>341de4102f75111092ec90bcf699b618</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_instance_341de4102f75111092ec90bcf699b618</sys_update_name>
+        <sys_update_version display_value="sp_instance_341de4102f75111092ec90bcf699b618">eafe68902f75111092ec90bcf699b665</sys_update_version>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:48:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

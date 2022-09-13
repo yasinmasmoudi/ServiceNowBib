@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bib M2m Orders Equipments" max_length="40" name="x_879751_bib_m2m_orders_equipments" sizeclass="5" type="collection">
+        <element label="Bemerkung" max_length="255" name="bemerkung" type="string"/>
+        <element attributes="encode_utf8=false" label="Equipment" max_length="32" name="equipment" reference="x_879751_bib_equipment" type="reference"/>
+        <element attributes="encode_utf8=false" label="Order" max_length="32" name="order" read_only="true" reference="x_879751_bib_order" type="reference"/>
+        <element choice="1" default="0" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ausgeliehen" value="0"/>
+                <element inactive_on_update="false" label="ProblemWithVerification" value="3"/>
+                <element inactive_on_update="false" label="Verified" value="2"/>
+                <element inactive_on_update="false" label="Zurueckgegeben" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="Hier neue Bemerkung:" label="New String" max_length="40" name="u_string_1" read_only="true" type="string"/>
+        <index name="index">
+            <element name="equipment"/>
+        </index>
+        <index name="index2">
+            <element name="order"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+	
+	//this.fname = currentUser.firstName
+	
+
+	/*
+c.test = function(){
+			
+c.data.bemerkung=c.bem;
+c.data.sysid=item.sys_id;
+//c.data.user=gs.getUser();
+		
+//c.data.user = g_user.userID;
+ 
+		
+c.server.update().then(function()
+     {
+alert("Bemerkung gesetzt");
+});
+}
+ 
+
+*/	
+};
+
+
+//https://dev92656.service-now.com
+//Für html:
+/*
+<form action="/">
+          <input class="fname" 
+                 id="name"
+                 type="text" 
+                 name="name" 
+                 ng-model="c.bem"
+                 >
+                 
+  <input type="text" id="sysId" name="sysId" [(ngModel)]="{{::item.sys_id}}" value="{{::item.sys_id}}"  >
+        <button type="button" ng-click=c.test() href=".">Setzen</button>
+      </form>
+  
+			*/]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>alist_my_equip</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>alist_my_equip</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+		data.user = gs.getUserName();
+	
+	
+	/*
+//Hole Alles Equipment mit eingeloggtem verleiher
+var gr = new GlideRecord('x_879751_bib_equipment');
+//var grOR = gr.addQuery('priority', 1);
+//grOR.addOrCondition('priority', 2);
+gr.addQuery('verleiher', gs.getUserID());
+gr.query();
+while (gr.next()) {
+//Do something with the records returned
+if(gr.state == 0){ //Wenn verfuegbar
+	data.test = gr.name;
+}
+}
+
+	
+	var destination_sys_id = "initialized";
+  var gr = new GlideRecord('x_879751_bib_equipment');
+  gr.addQuery('verleiher', gs.getUserID());
+	gr.query();
+  destination_sys_id =  gr.getValue('name');
+  data.test = destination_sys_id;
+*/
+	
+	
+	
+var getequip = new GlideRecord('x_879751_bib_equipment');
+
+getequip.addQuery('verleiher', gs.getUserID());
+//getequip.setLimit(1);
+getequip.orderBy('number');
+	
+getequip.query(); 
+
+
+data.list = [];
+
+while(getequip.next()){
+	
+	var todo = {};
+	
+	todo.name = getequip.getDisplayValue('name');
+	todo.state = getequip.getDisplayValue('state');
+	todo.enum = getequip.getDisplayValue('number');
+	
+	//todo.sys_id = getequip.getUniqueValue();
+	
+	
+	
+	
+
+var lastleihe = new GlideRecord('x_879751_bib_m2m_orders_equipments');
+
+	//Hole die letzte die mit diersem Equipment gemacht wurde
+	var qc = lastleihe.addQuery('equipment', getequip.getUniqueValue());
+      //qc.addOrCondition('state', 0);
+	lastleihe.orderByDesc('created');
+	
+	lastleihe.setLimit(1);
+//getequip.orderBy('number');
+
+	
+lastleihe.query(); 
+
+      while (lastleihe.next()){
+			}
+	
+	todo.lastorder = lastleihe.getDisplayValue('order.orderid');
+	todo.laststate = lastleihe.getDisplayValue('state');
+	todo.lastbemerkung = lastleihe.getDisplayValue('bemerkung');
+	todo.id =  lastleihe.getUniqueValue();
+	
+	
+	data.list.push(todo);
+	
+	//data.sys_id = getequip.getUniqueValue();
+}
+	
+	
+	/*
+if(input)
+{
+	
+var gr = new GlideRecord("x_879751_bib_equipment");
+  gr.get(input.sysid);
+	gr.beschreibung = input.bemerkung;
+	gr.update();
+
+//data.a=gr.getDisplayValue('number');
+//gs.addInfoMessage("Incident Is Created");
+ 
+ 
+}
+
+*/
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>marzel</sys_created_by>
+        <sys_created_on>2022-08-31 13:15:21</sys_created_on>
+        <sys_id>a9ca41972f69511092ec90bcf699b6af</sys_id>
+        <sys_mod_count>106</sys_mod_count>
+        <sys_name>alist_my_equip</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_widget_a9ca41972f69511092ec90bcf699b6af</sys_update_name>
+        <sys_updated_by>marzel</sys_updated_by>
+        <sys_updated_on>2022-09-06 12:00:46</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h3>Eingeloggt als: {{data.user}}</h3>
+  <br>
+  <h1>Hier sehen Sie den Status Ihres Equipments:</h1>
+  
+  
+  <br>
+  
+  
+  
+<ul style="list-style: none;">
+  
+<li ng-if="c.data.list.length > 0" ng-repeat="item in c.data.list">
+<div style="border: 1px solid;">
+  <h4><i class="fa fa-chevron-right m-r-sm"></i> 
+ 
+  Equipment-ID: {{::item.enum}} |
+  Name: {{::item.name}} </h4>
+  <br>Status: {{::item.state}}
+  <br><br>
+  Zuletzt in der Ausleihe: {{::item.lastorder}} 
+  | Mit dem momentanen Status: {{::item.state}} 
+  <br> <br>
+  Momentane Bemerkung: {{::item.lastbemerkung}} <br> <br>
+  Bemerkung und State ändern:
+  <a href="/bibliothek/?id=form&table=x_879751_bib_m2m_orders_equipments&view=verleiher&sys_id={{::item.id}} ">
+    <button>HIER</button></a> (Danach per Zurück wieder auf die Übersicht)
+
+  <br>
+  </div>
+  <br>
+</li>
+      
+</ul>
+  
+  
+  
+  
+  
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">794a1ccb2f65111092ec90bcf699b61b</sp_column>
+        <sp_widget display_value="Knowledge Resource Facet">28c358d2db00320099f93691f0b8f51c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:36:21</sys_created_on>
+        <sys_id>1971ec832fa5111092ec90bcf699b657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sp_instance_1971ec832fa5111092ec90bcf699b657</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:36:21</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1971ec832fa5111092ec90bcf699b657"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_1971ec832fa5111092ec90bcf699b657</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">794a1ccb2f65111092ec90bcf699b61b</sp_column><sp_widget display_value="Knowledge Resource Facet">28c358d2db00320099f93691f0b8f51c</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>othmane</sys_created_by><sys_created_on>2022-08-30 15:36:21</sys_created_on><sys_id>1971ec832fa5111092ec90bcf699b657</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package><sys_policy/><sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope><sys_update_name>sp_instance_1971ec832fa5111092ec90bcf699b657</sys_update_name><sys_updated_by>othmane</sys_updated_by><sys_updated_on>2022-08-30 15:36:21</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1971ec832fa5111092ec90bcf699b657"/></record_update>]]></payload>
+        <payload_hash>1719464955</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f07aafb62fa1111092ec90bcf699b6bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:36:21</sys_created_on>
+        <sys_id>d571ec832fa5111092ec90bcf699b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182ef657c260000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:36:21</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>1171ec8324a5111068ce36ce50854359</update_guid>
+        <update_guid_history>1171ec8324a5111068ce36ce50854359:1719464955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b581e0c32fa5111092ec90bcf699b684</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:36:40</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>378863b0093542c392d1535a5036c879</sys_id>
+        <sys_metadata>1971ec832fa5111092ec90bcf699b657</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_scope_delete display_value="">8bcd7cb9e84440c989afc2717794e4e1</sys_scope_delete>
+        <sys_update_name>sp_instance_1971ec832fa5111092ec90bcf699b657</sys_update_name>
+        <sys_update_version display_value="sp_instance_1971ec832fa5111092ec90bcf699b657">d571ec832fa5111092ec90bcf699b659</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:36:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

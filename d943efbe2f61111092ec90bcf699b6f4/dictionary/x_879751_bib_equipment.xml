@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Equipment" max_length="40" name="x_879751_bib_equipment" sizeclass="4" type="collection">
+        <element label="Beschreibung" max_length="100" name="beschreibung" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="EquipmentID" max_length="40" name="equipmentid" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Name" max_length="20" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" default="0" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NichtVerfuegbar" value="1"/>
+                <element inactive_on_update="false" label="Verfuegbar" value="0"/>
+            </choice>
+        </element>
+        <element label="Verleiher" max_length="32" name="verleiher" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="verleiher"/>
+        </index>
+    </element>
+</database>

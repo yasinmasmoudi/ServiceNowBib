@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="Bibliothek">e9887bb62fe1111092ec90bcf699b63a</sp_portal>
+        <sp_search_source display_value="product-research">674f98032fa5111092ec90bcf699b6cc</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-30 15:29:17</sys_created_on>
+        <sys_id>b1df1ccf2f65111092ec90bcf699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bibliothek.product-research</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_b1df1ccf2f65111092ec90bcf699b6e7</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-30 15:29:17</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>

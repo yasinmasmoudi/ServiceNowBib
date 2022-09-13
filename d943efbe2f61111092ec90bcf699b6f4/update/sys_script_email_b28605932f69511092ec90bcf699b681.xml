@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>notification_probleme_mit_verifikation</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template, /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action, /* Optional GlideRecord */ event) {
+
+	// Hole Daten zum aktuell ausgeliehenen Equipment durch Query
+	var lender_equipment = new GlideRecord('x_879751_bib_m2m_orders_equipments');
+	lender_equipment.addQuery("sys_id",current.getUniqueValue());
+	lender_equipment.query();
+	
+	while (lender_equipment.next()) {
+		template.print("<div><h4>Probleme mit dem zurückgegebenen Equipment \"" + lender_equipment.equipment.name + "\"" + "</h4><br>"
+		+ "Leider sind bei Ihrer Rückgabe des Equipments " + lender_equipment.equipment.name + " folgende Probleme aufgetreten, die durch den Verleiher oder einen befugten Mitarbeiter dokumentiert wurden. Die aufgetretenen Probleme sind:<br><br><em>" + lender_equipment.bemerkung + "</em><br><br>Bitte setzen Sie sich unverzüglich mit dem Eigentümer " + lender_equipment.equipment.verleiher.name + " ("+ lender_equipment.equipment.verleiher.email + ") " + "in Kontakt, um das weitere Vorgehen und eine gegebenenfalls anstehende Ersetzung/ Reparatur des Equipments zu arrangieren.<br><br> Bitte gehen Sie beim nächsten Mal sorgfältiger mit fremdem Equipment um.<br><br>" + "Mit freundlichen Grüßen<br><br>" + lender_equipment.equipment.verleiher.name + "</div>");
+	}
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>pascal</sys_created_by>
+        <sys_created_on>2022-08-31 13:02:54</sys_created_on>
+        <sys_id>b28605932f69511092ec90bcf699b681</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>notification_probleme_mit_verifikation</sys_name>
+        <sys_package display_value="Bib" source="x_879751_bib">d943efbe2f61111092ec90bcf699b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bib">d943efbe2f61111092ec90bcf699b6f4</sys_scope>
+        <sys_update_name>sys_script_email_b28605932f69511092ec90bcf699b681</sys_update_name>
+        <sys_updated_by>pascal</sys_updated_by>
+        <sys_updated_on>2022-08-31 13:29:42</sys_updated_on>
+    </sys_script_email>
+</record_update>
